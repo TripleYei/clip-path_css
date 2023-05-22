@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clip-path</title>
+</head>
+<body>
+	<img src="https://picsum.photos/200/300">
+	<img src="https://picsum.photos/200/301">
+	<img src="https://picsum.photos/200/302">
+	<img src="https://picsum.photos/200/300">
+	<img src="https://picsum.photos/200/301">
+	<img src="https://picsum.photos/200/300">
+	<img src="https://picsum.photos/200/301"> 
+	<img src="https://picsum.photos/200/300">
+	<img src="https://picsum.photos/200/301">
+	
+</body>
+
+<style>
+	body{
+		background: rgb(75,117,120);
+		background: linear-gradient(90deg, rgba(75,117,120,1) 0%, rgba(29,253,224,1) 50%, rgba(69,252,204,1) 100%);
+	}
+	img{
+		
+		max-width:70%;
+		clip-path:circle(25%);
+		
+	}
+	img:hover{
+
+		border-bottom:25px solid yellow;
+	}
+</style>
+</html>
